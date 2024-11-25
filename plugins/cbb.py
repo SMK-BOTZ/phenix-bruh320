@@ -10,16 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ 𝐎ᴡɴᴇʀ : <a href='https://t.me/Fushiguro_x'>𝐅ᴜsʜɪɢᴜʀᴏ</a> \n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Duo'>𝐀ɴɪᴍᴇ 𝐇ɪɴᴅɪ</a>  \n○ 𝐇ᴀɴɪᴍᴇ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/+x5jcDgIGC4RlYWQ1'>𝐇ᴜɴᴛᴀɪ 𝐖ᴏʀʟᴅ</a> \n○ 𝐃ᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/VR_Necromancer'>ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ</a> \n\n○ ᴘᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/VR_unreal'>ᴠʀ ᴜɴʀᴇᴀʟ✨</a></b>",
+            text = f"<b>𝖳𝗁𝗂𝗌 𝖨𝗌 𝖠 𝖯𝖾𝗋𝗆𝖺𝗇𝖾𝗇𝗍 𝖥𝗂𝗅𝖾 𝖲𝖺𝗏𝖾𝗋 𝖡𝗈𝗍. \n\n➜ 𝖲𝖾𝗇𝖽 𝖬𝖾 𝖠𝗇𝗒 𝖥𝗂𝗅𝖾 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗁𝖺𝗋𝖾𝖺𝖻𝗅𝖾 𝖫𝗂𝗇𝗄. \n➜ 𝖶𝗈𝗋𝗄𝗌 𝖨𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈𝗈. \n➜ 𝖠𝗏𝗈𝗂𝖽 𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝖨𝗇𝖿𝗋𝗂𝗇𝗀𝖾𝗆𝖾𝗇𝗍. \n\n★ 𝗔𝗯𝗼𝘂𝘁 𝗙𝗶𝗹𝗲 𝗦𝗮𝘃𝗲𝗿 \n\n๏ 𝖡𝗈𝗍 𝖭𝖺𝗆𝖾 ➜ <a href='https://t.me/TeamLegendSaver_Bot'>ʟᴇɢᴇɴᴅ ꜱᴀᴠᴇʀ ʙᴏᴛ</a> \n๏ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 ➜ <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a> \n๏ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 ➜ <a href='https://pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> \n\n☆ 𝗢𝘄𝗻𝗲𝗿 ~ <a href='https://t.me/Itz_Shixnu'>ɪᴛᴢ ꜱʜɪxɴᴜ</a>🥤 \n☆ 𝗝𝗼𝗶𝗻 ~ <a href='https://t.me/Team_Legend_Official'>ᴛᴇᴀᴍ ʟᴇɢᴇɴᴅ ᴏꜰꜰɪᴄɪᴀʟ</a>🥤</b",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⚡️ ᴀɴɪᴍᴇ ᴅᴜᴏ", url='https://t.me/Anime_Duo'),
-                        InlineKeyboardButton("✨ ʜᴇᴍᴛᴀɪ ᴡᴏʀʟᴅ", url='https://t.me/+rqJjl4BBd3M4NDc1')
-                    ],[
-                        InlineKeyboardButton("🔒 Close", callback_data = "close"),
-                        InlineKeyboardButton("📡 ᴠʀ ᴜɴʀᴇᴀʟ", url='https://t.me/vr_unreal')
+                        InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ", url='https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot'),
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ 🥀", callback_data = "close")
                     ]
                 ]
             )
